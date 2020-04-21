@@ -2,21 +2,26 @@
 	body { margin: 0; padding: 0; }
 	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
 
+  /* Searchbar */
     .geocoder {
         z-index: 1;
         left: 50%;
         margin: auto;
         top: 16px;
     }
+
+    /* Width searchbar */
     .mapboxgl-ctrl-geocoder {
         min-width: 100%;
     }
     
+    /* Map */
     #map {
         margin-top: 60px;
         top:16px;
     }
 
+    /* Header SpaxeX */
     header{
       background: black;
       height: 75px;
@@ -37,7 +42,7 @@
     top:10px;
   }
 }
-}
+
 
 /***************************
 TABLET SIZE 
@@ -47,12 +52,13 @@ TABLET SIZE
     top:10px;
   }
 }
-}
+
 
 /***************************
 SMALL DESKTOP SIZE
 ***************************/
 @media (min-width: 1028px){
+  /* For big screens */
   nav{
     max-width: 1028px;
   }
