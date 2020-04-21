@@ -1,0 +1,59 @@
+
+	body { margin: 0; padding: 0; }
+	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+    .geocoder {
+        z-index: 1;
+        left: 50%;
+        margin: auto;
+        top: 16px;
+    }
+    .mapboxgl-ctrl-geocoder {
+        min-width: 100%;
+    }
+    
+    #map {
+        margin-top: 60px;
+        top:16px;
+    }
+
+    header{
+      background: black;
+      height: 75px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    /* Logo SpaceX */
+    .logo{
+      max-width: 200px;
+      padding: 10px 10px 10px 10px;
+    }
+
+@media (min-width: 500px){
+    .mapboxgl-ctrl-icon{
+    top:10px;
+  }
+}
+}
+
+/***************************
+TABLET SIZE 
+***************************/
+@media (min-width: 500px){
+    #map{
+    top:10px;
+  }
+}
+}
+
+/***************************
+SMALL DESKTOP SIZE
+***************************/
+@media (min-width: 1028px){
+  nav{
+    max-width: 1028px;
+  }
+}
